@@ -28,7 +28,7 @@ app.all('/player/growid/login/validate', (req, res) => {
         status: "success",
         message: "Account Validated.",
         token: "",
-        url: "",
+        url: "https://gtps-loginurl.vercel.app/",
         accountType: "growtopia"
       })
     );
